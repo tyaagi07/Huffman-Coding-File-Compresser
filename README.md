@@ -1,6 +1,5 @@
 <h1 align='center'> Huffman Zipper</h1>
 <h3 align='center'> Yet another file compressor/decompressor, using a C++ huffman-coding algorithm implementation.</h3>
-<img center='align' src='https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1550/https://itpack.be/wp-content/uploads/2019/06/Naamloos.png'/>
 
 
 This team (me and [@oswidan97](https://github.com/oswidan97)) work was developed as assignment for Analysis & Design of Algorithms Course Fall 2018 offering at CCE department, Faculty of Engineering, Alexandria University
@@ -63,17 +62,4 @@ In any case, when you write 3 bits, then 2 bits, then 10 bits, all the bits are 
 Our decompressing/un-huff program must have some mechanism to account for these extra or "padding" bits since these bits do not represent compressed information.
 So, we check if the size of the bits string is multiple of 8 or not by checking the modulo of 8. Using that modulo value we can calculate the number of bits that need to be padded and handle them correctly. 
 
-Finally, we added a **pseudo EOF character**, and we chose it out of the ASCII table in the human readable range so we are not limiting the user to not use any ASCII characters.
 
-
-## References
-
-*1. [Huffman coding, from WikiWorld](https://www.wikiwand.com/en/Huffman_coding)*
-
-*2. Thomas H. Cormen, Charles E. Leiserson, Ronald L.Rivest, Clifford Stein “Introduction to Algorithms 3rd Edition - Thomas H. Cormen, Charles E. Leiserson, R”*
-
-*3. Weiss, Mark Allen. “Data structures and algorithm analysis in Java." Addison-Wesley Long-man Publishing Co., Inc., 1998.*
-
----
-
-<h3 align='center'> Made with :heart:</h3>
